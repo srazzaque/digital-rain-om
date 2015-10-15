@@ -1,0 +1,26 @@
+body {
+  font-family: courier new;
+  background-color: black;
+  color: #66ff66; }
+
+.ColumnHolder {
+  display: flex;
+  flex-direction: row; }
+
+.Column {
+  display: flex;
+  flex-direction: column; }
+
+@keyframes new-letter {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0.3; } }
+
+.Letter {
+  width: 12px;
+  height: 20px; }
+  .Letter--fadeOut {
+    animation-name: new-letter;
+    animation-duration: 2s;
+    opacity: 0.3; }
